@@ -953,11 +953,15 @@
                   <h3>CONTACT <strong>US </strong></h3>
                 </div>
                 <div class="w-50">
-                  <form onsubmit="sendMail(); reset(); return false">
+                  <form
+                    action="https://formsubmit.co/isuru.jayasuriya@inivossl.com"
+                    method="POST"
+                  >
                     <div class="form-group">
                       <input
                         type="text"
                         class="form-control"
+                        name="name"
                         id="name"
                         placeholder="NAME"
                         aria-describedby="emailHelp"
@@ -967,6 +971,7 @@
                       <input
                         type="email"
                         class="form-control"
+                        name="email"
                         id="email"
                         placeholder="EMAIL"
                         aria-describedby="emailHelp"
@@ -976,6 +981,7 @@
                       <textarea
                         type="text"
                         class="form-control"
+                        name="message"
                         id="message"
                         placeholder="MESSAGE"
                         rows="4"
