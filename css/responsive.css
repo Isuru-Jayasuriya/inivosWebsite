@@ -1,0 +1,247 @@
+@media (max-width: 991px){
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width:720px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  .main-banner .banner-caption {
+    top: 45%;
+    left: 50%;
+  }
+
+
+  .main-menu nav.navbar {
+    padding: 15px 5px 15px 15px;
+    background-color: rgb(37 65 119 / 96%);
+  }
+  .main-menu button.navbar-toggler span.icon-bar {
+    background-color: #fff;
+    width: 25px;
+    height: 2px;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .main-menu button.navbar-toggler {
+    margin-top: 5px;
+  }
+  .main-menu .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .main-menu ul.navbar-nav{
+    text-align: center;
+    padding-top: 20px;
+        height: 100vh;
+  }
+  .main-menu nav.navbar a.nav-link {
+    font-size: 17px;
+  }
+  .main-menu .navbar-collapse {
+    border-top: 1px solid #fff;
+    margin-top: 15px;
+  }
+  .main-menu nav.navbar li.nav-item {
+    padding: 15px 10px;
+  }
+  .main-menu nav.navbar a.nav-link.active::after{
+    content: none;
+  }
+  .main-menu.scrolled-nav nav.navbar {
+    padding:  8px 5px 8px 15px;
+  }
+
+
+
+  .main-description img.img-fluid {
+    width: 150px;
+    margin-bottom: 25px;
+  }
+
+
+
+
+  .why-inivos {
+    margin-top: 25px;
+  }
+  .why-inivos img.bg-image {
+    display: none;
+  }
+  .why-inivos .decription {
+    padding: 0px 15px;
+  }
+
+
+  .strengths {
+    margin-top: 75px;
+  }
+
+
+  .values {
+    padding: 75px 0px;
+    background-position: 80% 50%;
+  }
+
+
+
+  .contact-details .contact-item {
+    padding-left: 47px;
+  }
+  .contact-details .contact-item:before {
+    width: 25px;
+  }
+  .contact-details .contact-item.phone:before {
+    width: 15px;
+  }
+  .contact-details .contact-item::after {
+    height: 65px;
+    left: 16.4%;
+  }
+
+  .contact-form .form {
+    padding: 75px 55px 55px 60px;
+  }
+  .contact-form .form .w-50 {
+    width: 75% !important;
+  }
+  .contact-form .section-title:after {
+    top: -84%;
+  }
+  .contact-form iframe {
+    height: 350px;
+  }
+
+
+
+  .aliances .image-outer .hover-text {
+    opacity: 1;
+    position: relative;
+    background-color: transparent;
+    box-shadow: none !important;
+    height: auto;
+    padding: 0;
+  }
+  .aliances .column {
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px 0px rgb(209 213 223 / 50%) !important;
+    padding: 25px;
+  }
+}
+
+
+
+
+@media (max-width: 767px){
+
+  .reveal{
+    transform: translateY(1px) !important;
+  }
+
+
+  .btn {
+    padding: 7px 11px;
+    font-size: 14px;
+  }
+
+  .main-banner .banner-caption {
+    top: 55%;
+    left: 5%;
+  }
+
+  .strengths .item-3-slider .owl-nav {
+    text-align: center;
+  }
+  .strengths .item-3-slider .owl-nav button.owl-prev,
+  .strengths .item-3-slider .owl-nav button.owl-next{
+    position: relative;
+  }
+
+  .aliances .section-title:after {
+    top: 1%;
+  }
+
+  .why-inivos {
+    margin-top: 0;
+  }
+
+  .why-inivos .decription {
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .team {
+    padding-top: 50px;
+  }
+
+  .values .section-title:after {
+    top: 2%;
+  }
+
+  .stats {
+    padding: 20px 0px;
+  }
+  .stats .number h2 {
+    font-size: 24px;
+  }
+  .stats .number h5 {
+    font-size: 12px;
+  }
+  .stats .stat-outer:not(:last-child) {
+    border-right: 0.1px solid #fff;
+  }
+
+
+  .news-list {
+    margin-top: 40px;
+    background-image: none;
+    padding-bottom:0px;
+  }
+  .news-list .blog-div {
+    margin-bottom: 50px;
+  }
+
+
+
+  .contact-details {
+    padding-top: 20px;
+  }
+  .contact-form .form {
+    padding: 55px 25px 25px 25px;
+  }
+  .contact-form .section-title:after {
+    top: -58%;
+    height: 50px;
+  }
+  .contact-details .contact-item {
+    margin-bottom: 50px;
+    padding-left:45px;
+  }
+  .contact-details .contact-item.phone:before {
+    left: 2%;
+  }
+  .contact-details .contact-item::after {
+    content: none;
+  }
+
+
+  .contact-form .form .w-50 {
+    width: 100% !important;
+  }
+}
