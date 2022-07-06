@@ -653,7 +653,25 @@ z-index: 2;
   opacity: 1;
 }
 
+/* Thank you Page */
+.thank-you {
+  position: relative;
+  margin-top: 100px;
+}
+.thank-you .decription{
+  padding: 0px 150px;
+}
+.thank-you img.bg-image{
+  position: absolute;
+  top: -70%;
+}
 
+
+
+.ini-logo{
+  width: 25%;
+  margin-left: 20%;
+}
 
 
 /* ----- Testing -----  */
