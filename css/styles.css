@@ -366,6 +366,9 @@ z-index: 2;
 .aliances .image-outer .hover-text p{
   font-size: 13px;
 }
+.logo{
+  width: 20%!important;
+}
 
 /* ------ Global Presence ------  */
 .global{
